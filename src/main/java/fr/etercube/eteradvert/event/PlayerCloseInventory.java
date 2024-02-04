@@ -7,6 +7,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class PlayerCloseInventory implements Listener {
@@ -31,6 +32,10 @@ public class PlayerCloseInventory implements Listener {
             }
 
         }
+
+        ArrayList<Player> listPlayerInAdvert = eterAdvert.getListPlayerInAdvert();
+        listPlayerInAdvert.remove(player);
+        eterAdvert.setListPlayerInAdvert(listPlayerInAdvert);
 
     }
 }
