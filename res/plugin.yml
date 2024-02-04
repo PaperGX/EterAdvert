@@ -1,0 +1,7 @@
+name: EterAdvert
+version: '${project.version}'
+main: fr.etercube.eteradvert.EterAdvert
+api-version: '1.19'
+commands:
+  advert:
+    description: Plugin

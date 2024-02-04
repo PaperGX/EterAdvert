@@ -1,0 +1,5 @@
+message:
+  nopermission: "&cTu n'as pas la permission de faire cela !"
+  messageformat: "&cFormat: /advert (pseudo) (message)"
+  playernotonline: "&cLe joueur sélectionné n'est pas connecté !"
+  closeinventory: "&cLe joueur %player% a fermé l'inventaire"
